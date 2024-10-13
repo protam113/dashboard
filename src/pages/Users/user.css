@@ -1,0 +1,23 @@
+/* manager.css */
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 500px; /* Adjust based on your design */
+}
+
+.table th, .table td {
+    padding: 0.5rem; /* Adjust padding */
+    text-align: left;
+}
+
+.table th {
+    background-color: #f9fafb; /* Light gray background for header */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.table td {
+    border-bottom: 1px solid #e5e7eb; /* Light gray border for cells */
+}

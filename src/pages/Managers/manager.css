@@ -1,0 +1,11 @@
+.red_gradient {
+    background-clip: text; /* tương đương với bg-clip-text */
+    color: transparent; /* tương đương với text-transparent */
+    background-image: linear-gradient(to right, #f56565, #c53030);
+}
+
+
+.img-zoom:hover {
+    transform: scale(5); /* Thay đổi tỷ lệ kích thước khi hover */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
